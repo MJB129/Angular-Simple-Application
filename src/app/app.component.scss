@@ -1,0 +1,155 @@
+/*** header css start ***/
+.app-toolbar{
+    position: sticky;
+    position: -webkit-sticky; /* For macOS/iOS Safari */
+    top: 0; /* Sets the sticky toolbar to be on top */
+    z-index: 1000; /* Ensure that your app's content doesn't overlap the toolbar */
+}
+/*** header css end ***/
+
+/*** main header banner css start ***/
+.custom-header{
+    background-repeat: no-repeat;
+    background-position: 50% 0%;
+    background-size: cover;
+    background-image: url('../assets/images/header-background.jpg');
+}
+.bg-overlay {
+    background: linear-gradient(to right, #512DA8, #711e72);
+    opacity: 0.8;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    top: 0;
+}
+.title-xlarge{
+    text-transform: uppercase;
+    // line-height: 54px;
+    // font-size: 44px;
+    font-style: normal;
+    font-weight: 700;
+    color: #fff;
+    z-index: 100;
+    .light{
+        font-style: normal;
+        font-weight: 300;
+    }
+}
+.custom-title-excerpt{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    // font-size: 20px;
+    color: #fff;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 940px;
+    z-index: 100;
+}
+.header-banner-btn{
+    width: 72px;
+    height: 72px; 
+    margin-bottom: 30px;
+    mat-icon{
+        font-size: 50px;
+        height: 50px;
+        width: 50px;
+        color: #fff;
+    }
+}
+/*** main header banner css end ***/
+
+/*** section css start ***/
+.menu-section{
+    padding-top: 80px; 
+    padding-bottom: 80px;
+    padding-left: 16px;
+    padding-right: 16px;
+}
+.section-title {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 1rem;
+    line-height: 1;
+    font-size: 1.75rem;
+    font-weight: 500;
+}
+.section-title-border{
+    width: 50px;
+    height: 2px;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #fb3e3e;
+}
+.section-subtitle{
+    letter-spacing: 0.02em;
+    color: #a8aeb4;
+    padding-top: 30px;
+    text-align: center!important;
+}
+/*** section css end ***/
+
+/*** Our Areas Of Proficiency section css start ***/
+.service-box{
+    padding:8px; 
+    background-color: #e4d5fd;
+    margin:16px 0px;
+}
+.service-box-icon{
+    font-size: 32px;
+    height: 68px;
+    width: 68px;
+    background-color: #fff;
+    border-radius: 50%;
+    box-shadow: 0 0 1.25rem rgba(108,118,134,.1)!important;
+    line-height: 68px;
+}
+.service-box-content-list{
+    text-align: left;
+    padding: 0px; 
+    margin-bottom: 16px;
+}
+/*** Our Areas Of Proficiency section css end ***/
+
+/*** our store css start ***/
+.our-store-item:hover{
+    transform: scale(1.03);
+    h3{
+        font-weight: 700;
+        color: #ffd740 !important;
+    }
+}
+.store-name{
+    position: absolute;
+    left: 15px; 
+    bottom: 0px;
+}
+/*** our store css end ***/
+
+/*** Get a Free Quote css start ***/
+.tab-group-width{
+    max-width: 600px;
+}
+/*** Get a Free Quote css end ***/
+
+mat-form-field.mat-form-field.mat-white {
+&.mat-focused {
+    .mat-form-field-label {
+        color: #FAFAFA;
+    }
+    .mat-form-field-ripple {
+        background-color: #FAFAFA !important;
+    }
+}
+.mat-form-field-label,.mat-form-field-label.mat-focused,
+.mat-form-field.mat-focused.matform-field-should-float {
+    color: #FAFAFA;
+}
+.mat-form-field-underline, .mat-form-field-underline.mat-focused {
+    background-color: #FAFAFA;
+    }
+}
